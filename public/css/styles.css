@@ -1,0 +1,64 @@
+.header_nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.header_nav li {
+    margin-left: 2vw;
+}
+/* エラーメッセージ用のスタイル */
+.error {
+    color: red;
+}
+/* 成功メッセージ用のスタイル */
+.success {
+    color: green;
+}
+/* 削除ボタン用のスタイル */
+.delete {
+    display: inline;
+}
+/* 投稿のスタイル */
+.onsale {
+    color: green;
+    font-weight: bold;
+}
+
+.soldout {
+    color: red;
+    font-weight: bold;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.item {
+    padding: 20px;
+    margin-bottom: 30px;
+    list-style: none;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+}
+/* index のスタイル */
+.subtitle {
+    font-size: 3vw;
+}
+.bold {
+    font-weight: bold;
+}
+/* いいねボタンのスタイル */
+.like_container {
+    display: flex;
+    align-items: center;
+}
+.like form {
+    display: inline;
+}
+.like_toggle {
+    color: gray;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.liked {
+    color: pink;
+}
