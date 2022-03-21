@@ -8,7 +8,7 @@
     <h3>
         <a href="{{ route('items.create') }}">新規出品</a>
     </h3>
-    <p>商品が出品された日時が新しい順に並んでいます（降順）</p>
+    <p>自分以外のユーザーが出品した商品が、出品日時の新しい順に並んでいます（降順）。</p>
     <form method="post" action="{{ route('items.categorize') }}">
         @csrf
         カテゴリー別に表示する:
