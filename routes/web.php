@@ -55,7 +55,7 @@ Route::get('/profile/edit_image', 'ProfileController@editImage')->name('profile.
 
 Route::patch('/profile/edit_image', 'ProfileController@updateImage')->name('profile.update_image');
 
-// idex はログインユーザー、show はログインユーザー以外のプロフィール
+// index はログインユーザー、show はログインユーザー以外のプロフィール
 Route::resource('users', 'UserController')->only([
     'index', 'show']);
 // 出品商品一覧
